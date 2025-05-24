@@ -1,13 +1,14 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png"
 
 export const HERO_CONTENT = `
   I am Loka Nehan Reddy, a B.Tech Computer Science Engineering (IoT) student at Shiv Nadar University, Chennai.
   I specialize in full-stack development and smart IoT systems. With strong proficiency in React, Node.js, and embedded platforms like Raspberry Pi and NodeMCU,
   I focus on developing scalable, user-centric, and innovative tech solutions. Currently, I am working as a Web Developer Intern at GK Almirah, where I enhance website design, performance, and responsiveness.`;
 
-export const ABOUT_TEXT = `I'm a 3rd-year B.Tech student in Computer Science Engineering (IoT) at Shiv Nadar University. I've worked on several real-world projects that integrate full-stack development with Internet of Things (IoT) concepts. My technical toolkit includes React, Node.js, Express.js, MongoDB, and IoT boards like Arduino, NodeMCU, and Raspberry Pi. With a deep interest in solving complex tech challenges, I continue to expand my knowledge in cloud services, AI-powered tools, and embedded systems. My goal is to contribute to innovative digital products that make a meaningful impact.`;
+export const ABOUT_TEXT = `I'm a 4th-year B.Tech student in Computer Science Engineering (IoT) at Shiv Nadar University. I've worked on several real-world projects that integrate full-stack development with Internet of Things (IoT) concepts. My technical toolkit includes React, Node.js, Express.js, MongoDB, and IoT boards like Arduino, NodeMCU, and Raspberry Pi. With a deep interest in solving complex tech challenges, I continue to expand my knowledge in cloud services, AI-powered tools, and embedded systems. My goal is to contribute to innovative digital products that make a meaningful impact.`;
 
 export const EDUCATION = [
   {
@@ -59,6 +60,14 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript", "Node.js"],
   },
   {
+    title: "Employee Attendance Management System",
+    image: project4,
+    description: `Developed a web application that enables employees to log daily attendance with check-in and check-out features.
+     Implemented role-based access for employees and supervisors, with real-time validation for late check-ins and early check-outs.
+      Built secure user authentication using JWT, and designed responsive UI components for a seamless user experience.`,
+    technologies: ["Reactjs", "MongoDB", "Expressjs", "Nodejs"],
+  },
+  {
     title: "IoT-Based Inventory Management System",
     image: project1,
     description: `A smart inventory tracking system using ultrasonic sensors integrated with NodeMCU to monitor stock levels in real-time.
@@ -77,13 +86,15 @@ export const CONTACT = {
 export const WORK_EXPERIENCE = [
   {
     year: "2025 – Present",
-    role: "Web Developer Intern",
-    company: "GK Almirah",
-    location: "Chennai, India",
+    role: "Full Stack Developer Intern",
+    company: "Laneway India Enterprises Pvt Ltd.",
+    location: "Remote",
     description: `
-      • Improving the design, responsiveness, and functionality of the official company website.  
-      • Implementing UI/UX enhancements and optimizing site performance for a better user experience.  
-      • Collaborating with marketing and product teams for seamless product showcasing and updates.`,
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap", "cPanel"],
+      • Developed an Employee Attendance Management System using the MERN stack.
+      • Implemented features for employees to check in/out, view attendance history, and apply for leaves via a responsive web
+         interface.  
+      • Created supervisor dashboards with role-based access to view all employee data, approve leaves, and analyze attendance
+         patterns.`,
+    technologies: ["Reactjs", "Nodejs", "MongoDB", "Expressjs"],
   },
 ];
